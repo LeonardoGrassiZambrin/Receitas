@@ -17,6 +17,7 @@
   <header>
   <h1>Quais Produtos Você Encontra Aqui ?</h1>
 <nav>
+  <a id="a14" href="index.html">Inicio</a>||
   <a id="a1" href="coxinhadecarne.html">Coxinha de Carne</a>||
   <a id="a2" href="coxinhadefrango.html">Coxinha de Frango</a>||
   <a id="a3" href="coxinhadequeijo.html">Coxinha de Queijo</a>||
@@ -38,22 +39,63 @@
 
 <section class="Titulo">
 
-  <div class="from-container">
-
-    <h2>Fale Conosco</h2>
-    <form>
+  <div class="form-container">
+    <h2>Faça sua Encomenda</h2>
+    <form action="#" method="post">
       <label for="nome">Nome:</label>
       <input type="text" id="nome" name="nome" required>
+  
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco" required>
+  
+      <label for="telefone">Telefone: </label>
+      <input type="tel" id="telefone" name="telefone" required>
+  
+      <label for="whatsapp">WhatsApp:</label>
+      <input type="tel" id="whatsapp" name="whatsapp" required>
+  
+      <label for="produto">O que deseja encomendar?</label>
+      <select id="produto" name="produto" required>
+        <option value="">Selecione uma opção</option>
+        <option value="bolos">Bolos</option>
+        <option value="salgados">Salgados</option>
+        <option value="sobremesa">Sobremesa</option>
+        <option value="outros">Outros</option>
+      </select>
+    </form>
+  </div>
+  <label for="descricao">Descreva seu pedido: </label>
+  <textarea id="descricao" name="descricao" rows="4" required></textarea>
+  
+  <label for="restricao">Possui alguma restrição alimentar?</label>
+  <textarea id="restricao" name="restricao" rows="2" placeholder="Ex: sem lactose, sem glúten..."></textarea>
+  
+  <label for="pagamento">Forma de pagamento: </label>
+  <select id="pagamento" name="pagamento" required>
+    <option value="">Selecione uma opção</option>
+    <option value="pix">Pix</option>
+    <option value="cartao">Cartão de Crédito</option>
+    <option value="boleto">Boleto</option>
+    <option value="dinheiro">Dinheiro na entrega</option>
+  </select>
+  <label for="data">Data da encomenda: </label>
+<input type="date" id="data" name="data" required>
 
-      <label for="email">E-mail:</label>
-      <input type="email" id="email" name="email"required>
+<label for="hora">Horário desejado: </label>
+<input type="time" id="hora" name="hora" required>
 
-      <label for="mensagem">Mensagem:</label>
-      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+<label for="entrega">Como deseja receber: </label>
+<select id="entrega" name="entrega" required>
+  <option value="">Selecione uma opção</option>
+  <option value="entrega">Entrega</option>
+  <option value="retirada">Retirada</option>
+</select>
 
-      <button type="submit">Enviar</button>
+<button type="submit">Enviar Pedido</button>
 </form>
 </div>
+
+
 </section>
 
 
