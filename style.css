@@ -17,7 +17,9 @@ table {width:100%; margin: 0px;}
   font-size:20px;
   font-weight: bold}
 
-  h1 {color:red;/* cor do título */}
+  h1 {color:red;/* cor do título */
+  text-align: center;
+}
 
   p  {
       color:blue;
@@ -78,4 +80,86 @@ padding: 20px;}
 
 #a1, #a3, #a5, #a7, #a9, #a11, #a13 {
   color: blue;
+}
+
+.form-container {
+
+  max-width: 600px;
+  
+  margin: 30px auto;
+  
+  background-color: #fff5f8;
+  
+  padding: 30px;
+  
+  border-radius: 10px;
+  
+  box-shadow: 00 12px ☐ rgba(0, 0, 0, 0.1);
+  
+  border: 1px solid #dcb;
+  
+  }
+  
+  form {
+  
+  display: flex;
+  
+  flex-direction: column;
+  
+  }
+  
+  form label {
+  
+  margin-top: 15px;
+  
+  font-weight: bold;
+  
+  color: brown;
+  
+  }
+
+form input,
+
+form select,
+
+form textarea {
+
+margin-top: 5px;
+
+padding: 10px;
+
+font-size: 16px;
+
+border-radius: 5px;
+
+border: 1px solid #ccc;
+
+background-color:
+
+#fff;
+
+box-sizing: border-box;
+
+}
+
+form textarea {
+
+resize: vertical;
+
+}
+
+form button {
+  margin-top: 25px;
+  padding: 12px;
+  font-size: 18px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #a0522d;
 }
