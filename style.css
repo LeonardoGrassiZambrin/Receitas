@@ -2,7 +2,7 @@ html {height: 100%;width: 100%;}
 
 
 table {width:100%; margin: 0px;}
-  th,td{border:2px solid black;padding:10px;tect-aling: center;}
+  th,td{border:2px solid black;padding:10px;text-align: center;}
   th {background-color:yellow;}
 
   img {
