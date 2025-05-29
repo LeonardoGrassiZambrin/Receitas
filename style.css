@@ -60,6 +60,14 @@ nav > a {color:blue;font-family:Arial;
    /* margin: 30px; */
   }
 
+  nav > a:hover {
+    font-size: 22px;
+  }
+
+  td > a:hover {
+    font-size: 21px;
+  }
+
   #baner {
     width: 100%;
     height: 600px;
